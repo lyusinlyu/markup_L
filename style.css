@@ -197,9 +197,28 @@ img {
     color: #f26c4f;
     background: url(images/widget-a2.jpg) left center no-repeat;
 }
-
-
-
+.recent_posts {
+    font-size: 13px;
+    font-style: italic;    
+    line-height: 1.5;
+}
+.recent_posts p {
+    background: url(images/recent-bg.jpg) left 7px no-repeat;
+    padding-left: 15px;
+    margin-bottom: 9px;
+}
+.recent_posts p span {
+    color: #868686;
+    display: block;
+    font-size: 12px;
+}
+.recent_posts p a {
+    color: #3a3a3a;
+    text-decoration: none;
+}
+.recent_posts p a:hover {
+    text-decoration: underline;
+}
 
 
 
