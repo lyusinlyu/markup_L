@@ -12,6 +12,10 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
     color: #3a3e3f;
 }
+img {
+    max-width: 100%;
+}
+/*==================header======================*/
 .header_main {
     background: url(images/header-bg.jpg) center top no-repeat;
     background-size: 100% 91px;
@@ -60,6 +64,89 @@ h1, h2, h3, h4, h5, h6 {
     .menu li a:hover {
         text-decoration: underline;
     }
+/*================content====================*/
+
+.content_main {
+    overflow: hidden;
+}
+.content {
+    
+}
+.post_main {
+    margin-bottom: 30px;
+}
+.post_img {
+    background: #fff;
+    border: 1px solid #d7d7d7;
+    padding: 6px;
+    position: relative;
+    margin-bottom: 8px;
+}
+.post_img_social {
+    position: absolute;
+    bottom: 15px;
+    left: 50px;
+}
+.post_img_social img {
+    display: block;
+    margin-bottom: 10px;
+}
+.post_content {
+    background: #fff;
+    border: 1px solid #d7d7d7;
+    padding: 35px;
+    position: relative;
+}
+.post_arrow_up {
+    background: url(images/post-str.png) no-repeat;
+    width: 31px;
+    height: 17px;
+    position: absolute;
+    top: -17px;
+    left: 70px;
+}
+.post_head {
+    
+}
+.post_head h1 {
+    
+    margin-bottom: 10px;
+    
+}
+.post_head h1 a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #3a3e3f;
+}
+.post_head h1 a:hover {
+    text-decoration: underline;
+}
+.post_head p {
+    font-size: 12px;
+    color: #d0d0d0;
+    margin-bottom: 10px;
+}
+.post_head h2 {
+    font-size: 15px;
+    color: #f26c4f;
+    margin-bottom: 10px;
+}
+.post p {
+    color: #959595;
+    line-height: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
