@@ -162,12 +162,13 @@ img {
 /*================sidebar==================*/
 
 .sidebar_main {
-    
+    padding-bottom: 30px;
 }
 .sidebar {
     border: 1px solid #d7d7d7;
     background: #fff;
     padding: 40px 30px 20px 30px;
+    margin-bottom: 30px;
 }
 .sidebar h2 {
     font-size: 16px;
@@ -219,7 +220,9 @@ img {
 .recent_posts p a:hover {
     text-decoration: underline;
 }
-
+.side_banner {
+    text-align: center;
+}
 
 
 
