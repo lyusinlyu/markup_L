@@ -135,20 +135,68 @@ img {
     color: #959595;
     line-height: 2;
 }
+.pager {
+    overflow: hidden;
+    list-style: none;
+    margin: 0 0 40px 30px;
+}
+.pager li {
+    float: left;        
+    font-size: 14px;
+    font-weight: bold;
+}
+.pager li a {
+    text-decoration: none;
+    padding: 3px 7px;
+    margin: 0 10px 0 0;
+    display: block;
+    color: #3a3e3f;
+}
+.pager li a:hover {
+    text-decoration: underline;
+}
+.pager li a.page_now {
+    background: #f26c4f;
+    color: #fff;
+}
+/*================sidebar==================*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.sidebar_main {
+    
+}
+.sidebar {
+    border: 1px solid #d7d7d7;
+    background: #fff;
+    padding: 40px 30px 20px 30px;
+}
+.sidebar h2 {
+    font-size: 16px;
+    color: #2e2d2d;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.side_widget {
+    margin-bottom: 30px;
+}
+.side_widget ul {
+    list-style: none;
+    font-size: 15px;
+}
+.side_widget ul li {
+    background: url(images/dot-li.jpg) bottom repeat-x;
+    padding: 5px 0;
+}
+.side_widget ul li a {
+    font-size: 15px;
+    color: #828282;
+    text-decoration: none;
+    background: url(images/widget-a1.jpg) left center no-repeat;
+    padding-left: 30px;
+}
+.side_widget ul li a:hover {
+    color: #f26c4f;
+    background: url(images/widget-a2.jpg) left center no-repeat;
+}
 
 
 
