@@ -24,7 +24,7 @@ img {
     margin-bottom: 30px;
 }
 .header_top {
-    background: url(images/header-top-bg.jpg) repeat-x;
+    background: url(images/header-top-bg.jpg);
 }
 .header {
     overflow: hidden;
@@ -282,7 +282,34 @@ img {
         width: 64.28%;
     }
 }
-
+@media only screen and (min-width:481px) and (max-width: 768px) {
+    .logo {
+        float: none;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        width: 240px;
+        padding: 0 0 5px 0;
+    }
+    .header ul {
+        float: none;
+    }
+    .content_main {
+        margin: 0 15px;
+    }
+    .post_img img {
+        width: 100%;
+    }
+        .footer_right {
+        float: none;
+        width: 100%;
+        margin-bottom: 20px;
+}
+    .footer_left {
+        float: none;
+        width: 100%;
+    }
+}
 
 
 
