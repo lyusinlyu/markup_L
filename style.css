@@ -311,7 +311,36 @@ img {
     }
 }
 
-
+@media only screen and (min-width:241px) and (max-width: 480px) {
+    .logo {
+        float: none;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+        padding: 0 0 5px 0;
+    }
+    .header ul {
+        float: none;
+    }
+    .post_content {
+        padding: 20px;
+    }
+    .sidebar {
+        padding: 20px;
+    }
+    .post_img_social img {
+        display: inline-block;
+        margin-bottom: 0;
+        margin-right: 10px;
+        width: 30px;
+    }
+    .post_img_social {
+        position: absolute;
+        bottom: 10px;
+        left: 20px;
+}
+}
 
 
 
