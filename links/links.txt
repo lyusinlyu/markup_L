@@ -1,0 +1,13 @@
+1. http://lorempixel.com/ - сервис вставки изображений на сайт
+
+2. http://www.freewebhostingarea.com/ - бесплатный хостинг для тестирования
+
+3. Сервисы тестирования:
+
+	3.1 http://quirktools.com/
+
+	3.2 http://viewlike.us/
+
+	3.3 http://plastilin5.com/tools/
+
+	3.4 http://ami.responsivedesign.is/
