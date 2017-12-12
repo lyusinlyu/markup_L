@@ -40,10 +40,12 @@
                     <div class="post_content">
                         <div class="post_arrow_up"></div>
                         <div class="post_head">
-
+<<<<<<< HEAD
                             <h1><a href="#">Roundup: 20 web designs with 
                                 large backgrounds !!!blaaaa</a></h1>
-
+=======
+                            <h1><a href="#">Bla bla bla</a></h1>
+>>>>>>> changes
                             <p>19th April 2012</p>
                             <h2>Sub heading to go here</h2>
                         </div>
